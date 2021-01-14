@@ -17,7 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 public class RewardsPage {
 	WebDriver driver;
 	
-	By signUpBtn = By.cssSelector("a[class='a-btn'][href*='sign-up']");
+	By signUpBtn = By.cssSelector("a[href*='sign-up']");
 	By submitBtn = By.id("edit-submit");
 	By boxOwnCard = By.cssSelector("label.option[for='edit-own-a-card']");
 	
