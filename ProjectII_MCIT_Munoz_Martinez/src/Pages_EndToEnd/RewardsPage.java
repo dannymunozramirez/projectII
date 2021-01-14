@@ -12,8 +12,11 @@ import org.openqa.selenium.interactions.Actions;
  *         order to register a new user.
  *
  */
+
+
 public class RewardsPage {
 	WebDriver driver;
+	
 	By signUpBtn = By.cssSelector("a[class='a-btn'][href*='sign-up']");
 	By submitBtn = By.id("edit-submit");
 	By boxOwnCard = By.cssSelector("label.option[for='edit-own-a-card']");
@@ -26,7 +29,7 @@ public class RewardsPage {
 	By passwordById = By.id("edit-password");
 	By passwordConfirmById = By.id("edit-confirm-password");
 	By boxPromoCss = By.cssSelector("label.option[for='edit-opt-in-promotions']");
-	By boxPolicyCss = By.cssSelector("label.option[for='edit-agree-tos']");
+	By boxPolicyCss = By.xpath("//*[@id=\"edit-agree-tos\"]");
 	By boxMajorityCss = By.cssSelector("label.option[for='edit-majority']");
 	
 	
@@ -36,21 +39,22 @@ public class RewardsPage {
 	public  final static String EMAIL = "projectII.mcit@gmail.com";
 	public  final static String PASSWORD = "Munoz@Martinez";
 	
-	//Action over promotion box
-	Actions act = new Actions(driver);
-	WebElement box = driver.findElement(boxPolicyCss);
-	
-	
-	
 	public RewardsPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
+	
+	
 
 	public void clickSignUp(WebDriver driver) {
 		driver.findElement(signUpBtn).click();
 	}
 
 	public void fillingOutForm(WebDriver driver) throws InterruptedException {
+		//Action over promotion box
+		Actions act = new Actions(driver);
+		WebElement box = driver.findElement(boxPolicyCss);
+		
 		driver.findElement(boxOwnCard).click();
 		Thread.sleep(2000);
 		driver.findElement(nameFieldByCss).sendKeys(NAME);
