@@ -2,13 +2,6 @@
 
 <suite name="sampleSuite">
 	<test name="sampleTest">
-		<groups>
-			<run>
-				<include name="group_name">
-
-				</include>
-			</run>
-		</groups>
 		
 		<classes>
 			<class name="testNG.Demo">
@@ -16,12 +9,6 @@
 					<include name="testOne"></include>
 				</methods>
 			</class>
-
-			<class name="testNG.Demo2">
-
-			</class>
-
-
 
 		</classes>
 	</test>

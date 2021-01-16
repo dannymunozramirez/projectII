@@ -26,12 +26,16 @@ public class UtilEndToEndSecondCup {
 		
 		HomePage homePageActions = new HomePage(driver);
 		RewardsPage rewardPageActions = new RewardsPage(driver);
-//		LoginPage loginPageActions = new LoginPage(driver);
-//		DashboardPage dashboardPageActions = new DashboardPage(driver);
+		LoginPage loginPageActions = new LoginPage(driver);
+		DashboardPage dashboardPageActions = new DashboardPage(driver);
 		
 		homePageActions.clickReward(driver);
 		rewardPageActions.clickSignUp(driver);
 		rewardPageActions.fillingOutForm(driver);
+		
+		//This object will sign in to the dashboard once the registration be done
+		//loginPageActions.signingUp(driver);
+		//dashboardPageActions.logOut(driver);
 		
 		
 		
