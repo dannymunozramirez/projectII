@@ -10,6 +10,12 @@ import Pages_EndToEnd.HomePage;
 import Pages_EndToEnd.LoginPage;
 import Pages_EndToEnd.RewardsPage;
 
+/**
+* 
+* @author  Munoz_Martinez This class will use all the POM structure in the
+ *         project folder, in order to perform the second cup automation test
+ *         case.
+*/
 
 public class UtilEndToEndSecondCup {
 	
@@ -32,12 +38,8 @@ public class UtilEndToEndSecondCup {
 		homePageActions.clickReward(driver);
 		rewardPageActions.clickSignUp(driver);
 		rewardPageActions.fillingOutForm(driver);
-		
-		//This object will sign in to the dashboard once the registration be done
-		//loginPageActions.signingUp(driver);
-		//dashboardPageActions.logOut(driver);
-		
-		
+		loginPageActions.signingUp(driver);
+		dashboardPageActions.logOut(driver);
 		
 	}
 	
