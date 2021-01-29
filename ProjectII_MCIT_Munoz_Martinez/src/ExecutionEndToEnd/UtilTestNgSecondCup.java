@@ -6,19 +6,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
-import Pages_EndToEnd.DashboardPage;
-import Pages_EndToEnd.HomePage;
-import Pages_EndToEnd.LoginPage;
-import Pages_EndToEnd.RewardsPage;
 import atu.testrecorder.ATUTestRecorder;
 import atu.testrecorder.exceptions.ATUTestRecorderException;
+import pages_EndToEnd.DashboardPage;
+import pages_EndToEnd.HomePage;
+import pages_EndToEnd.LoginPage;
+import pages_EndToEnd.RewardsPage;
+import pages_EndToEnd_Functionality.DeliveryInformation;
+import pages_EndToEnd_Functionality.GiftCardBuy;
+import pages_EndToEnd_Functionality.GiftCardForm;
+import pages_EndToEnd_Functionality.HomePageForGiftCards;
+import pages_EndToEnd_Functionality.Payment;
 
 /**
  * 
  * @author Munoz_Martinez This testNg class will use all the POM classes in the
  *         project folder, in order to perform the second cup automation test
  *         case. It will follow this structure for all the classes on it and for
- *         each @test included on this TestNg class, then it will back to the @BeforeMethod.
+ *         each @test included on this TestNg class, then it will back to
+ *         the @BeforeMethod.
  *
  */
 
@@ -31,7 +37,16 @@ public class UtilTestNgSecondCup {
 	LoginPage loginPageActions = new LoginPage(driver);
 	DashboardPage dashboardPageActions = new DashboardPage(driver);
 
-	// Before Test => Before Class => Before Method => Method => Before Method => Method => AfterMethod => AfterTest
+	// GiftCard functional test
+	// GiftCard Functionality test
+	HomePageForGiftCards homeGift = new HomePageForGiftCards(driver);
+	GiftCardBuy clickShopNow = new GiftCardBuy(driver);
+	GiftCardForm fillOutForm = new GiftCardForm(driver);
+	Payment paymentInfo = new Payment(driver);
+	DeliveryInformation deliveryOptions = new DeliveryInformation(driver);
+
+	// Before Test => Before Class => Before Method => Method => Before Method =>
+	// Method => AfterMethod => AfterTest
 
 	@BeforeTest
 	public void beforeTest() throws ATUTestRecorderException {
@@ -99,6 +114,17 @@ public class UtilTestNgSecondCup {
 	@Test(priority = 6)
 	public void testSeven() throws InterruptedException {
 		dashboardPageActions.logOut(driver);
+	}
+
+	@Test(priority = 7)
+	public void functionalGiftCards() throws InterruptedException {
+		homeGift.clickGifCardBtn(driver);
+		clickShopNow.clickGiftBtn(driver);
+		fillOutForm.clickToForm(driver);
+		fillOutForm.fillingOutForm(driver);
+		paymentInfo.fillOutEmailField(driver);
+		paymentInfo.fillinOutPaymentInfo(driver);
+		deliveryOptions.selectingDelivery(driver);
 	}
 
 	@AfterMethod
