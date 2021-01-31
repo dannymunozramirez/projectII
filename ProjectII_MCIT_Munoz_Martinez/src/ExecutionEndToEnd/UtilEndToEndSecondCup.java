@@ -3,7 +3,7 @@ package ExecutionEndToEnd;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import atu.testrecorder.ATUTestRecorder;
 import atu.testrecorder.exceptions.ATUTestRecorderException;
@@ -30,13 +30,13 @@ public class UtilEndToEndSecondCup {
 	public static void main(String[] args) throws InterruptedException, ATUTestRecorderException {
 		
 		ATUTestRecorder recorder;
-		recorder = new ATUTestRecorder("/Users/dannymunoz/git/projectII", "ProjectII_MCIT_Munoz_Martinez", false);
+		recorder = new ATUTestRecorder("/Users/dannymunoz/git/projectII", "ProjectII_MCIT_Munoz_Martinez_GiftCardModule", false);
 		
-		WebDriver driver = new ChromeDriver();
-		System.setProperty("webdriver.chromedriver.driver", "/Users/dannymunoz/git/projectII/projectII_MCIT_Munoz_Martinez/chromedriver");
+		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chromedriver.driver", "/Users/dannymunoz/git/projectII/projectII_MCIT_Munoz_Martinez/geckodriver");
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://secondcup.com/");
+		driver.get("https://cws.givex.com/cws4.0/secondcup4/");
 		recorder.start();
 		
 		HomePage homePageActions = new HomePage(driver);
@@ -61,10 +61,11 @@ public class UtilEndToEndSecondCup {
 		dashboardPageActions.logOut(driver);
 		
 		//GiftCard Functionality test
-		Thread.sleep(4000);
+		
 		homeGift.clickGifCardBtn(driver);
-		clickShopNow.clickGiftBtn(driver);
-		fillOutForm.clickToForm(driver);
+		clickShopNow.clickGiftBtn(driver);	
+		
+		
 		fillOutForm.fillingOutForm(driver);
 		paymentInfo.fillOutEmailField(driver);
 		paymentInfo.fillinOutPaymentInfo(driver);

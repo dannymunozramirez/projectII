@@ -1,217 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-15T22:27:44 EST" name="Default suite" finished-at="2021-01-15T22:28:41 EST" duration-ms="57806">
+  <suite started-at="2021-01-30T19:24:37 EST" name="Default suite" finished-at="2021-01-30T19:25:25 EST" duration-ms="48458">
     <groups>
     </groups>
-    <test started-at="2021-01-15T22:27:44 EST" name="Default test" finished-at="2021-01-15T22:28:41 EST" duration-ms="57806">
+    <test started-at="2021-01-30T19:24:37 EST" name="Default test" finished-at="2021-01-30T19:25:25 EST" duration-ms="48458">
       <class name="ExecutionEndToEnd.UtilTestNgSecondCup">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:44 EST" name="beforeTest" finished-at="2021-01-15T22:27:46 EST" duration-ms="2819" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:24:37 EST" name="beforeTest" finished-at="2021-01-30T19:24:40 EST" duration-ms="3072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:46 EST" name="beforeClass" finished-at="2021-01-15T22:27:48 EST" duration-ms="1856" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:24:40 EST" name="beforeClass" finished-at="2021-01-30T19:24:41 EST" duration-ms="1511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:48 EST" name="beforeMethod" finished-at="2021-01-15T22:27:50 EST" duration-ms="2001" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:24:41 EST" name="beforeMethod" finished-at="2021-01-30T19:24:43 EST" duration-ms="2002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testOne()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:50 EST" name="testOne" finished-at="2021-01-15T22:27:51 EST" duration-ms="396" status="PASS">
+        <test-method signature="functionalGiftCards()[pri:1, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:24:43 EST" name="functionalGiftCards" finished-at="2021-01-30T19:25:23 EST" duration-ms="39650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:51 EST" name="afterMethod" finished-at="2021-01-15T22:27:51 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:51 EST" name="beforeMethod" finished-at="2021-01-15T22:27:53 EST" duration-ms="2004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testTwo()[pri:1, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:53 EST" name="testTwo" finished-at="2021-01-15T22:27:54 EST" duration-ms="1316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:54 EST" name="afterMethod" finished-at="2021-01-15T22:27:54 EST" duration-ms="1" status="PASS">
+        </test-method> <!-- functionalGiftCards -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:25:23 EST" name="afterMethod" finished-at="2021-01-30T19:25:23 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:54 EST" name="beforeMethod" finished-at="2021-01-15T22:27:56 EST" duration-ms="2002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testThree()[pri:2, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:56 EST" name="testThree" finished-at="2021-01-15T22:27:57 EST" duration-ms="726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:57 EST" name="afterMethod" finished-at="2021-01-15T22:27:57 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:57 EST" name="beforeMethod" finished-at="2021-01-15T22:27:59 EST" duration-ms="2002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testFour()[pri:3, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:27:59 EST" name="testFour" finished-at="2021-01-15T22:28:19 EST" duration-ms="20640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:19 EST" name="beforeMethod" finished-at="2021-01-15T22:28:21 EST" duration-ms="2001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:19 EST" name="afterMethod" finished-at="2021-01-15T22:28:19 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="homeToSignIn()[pri:4, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:21 EST" name="homeToSignIn" finished-at="2021-01-15T22:28:23 EST" duration-ms="1340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeToSignIn -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:23 EST" name="afterMethod" finished-at="2021-01-15T22:28:23 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:23 EST" name="beforeMethod" finished-at="2021-01-15T22:28:25 EST" duration-ms="2000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="homeToFillOutSignIn()[pri:5, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:25 EST" name="homeToFillOutSignIn" finished-at="2021-01-15T22:28:30 EST" duration-ms="5771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homeToFillOutSignIn -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:30 EST" name="afterMethod" finished-at="2021-01-15T22:28:30 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:30 EST" name="beforeMethod" finished-at="2021-01-15T22:28:32 EST" duration-ms="2002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="dashBoardLogOut()[pri:6, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:32 EST" name="dashBoardLogOut" finished-at="2021-01-15T22:28:39 EST" duration-ms="6869" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate an element using css selector=a[class='m-nav-main__link'][href='/rewards/sign-out']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MacBook-Pro-de-Danny.local', ip: 'fd00:749b:e8ba:3e2:449e:3aa1:24fa:b5a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using css selector=a[class='m-nav-main__link'][href='/rewards/sign-out']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MacBook-Pro-de-Danny.local', ip: 'fd00:749b:e8ba:3e2:449e:3aa1:24fa:b5a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Pages_EndToEnd.DashboardPage.logOut(DashboardPage.java:15)
-at ExecutionEndToEnd.UtilTestNgSecondCup.dashBoardLogOut(UtilTestNgSecondCup.java:97)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dashBoardLogOut -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:39 EST" name="afterMethod" finished-at="2021-01-15T22:28:39 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="finishingTest()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@b62fe6d]" started-at="2021-01-15T22:28:39 EST" name="finishingTest" finished-at="2021-01-15T22:28:41 EST" duration-ms="2028" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MacBook-Pro-de-Danny.local', ip: 'fd00:749b:e8ba:3e2:449e:3aa1:24fa:b5a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/5_/g62mh1d95gg...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a72ad5054a4a3667a99bda4f2648ef4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=87.0.4280.141)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MacBook-Pro-de-Danny.local', ip: 'fd00:749b:e8ba:3e2:449e:3aa1:24fa:b5a9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/5_/g62mh1d95gg...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2a72ad5054a4a3667a99bda4f2648ef4
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at ExecutionEndToEnd.UtilTestNgSecondCup.finishingTest(UtilTestNgSecondCup.java:108)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
-at org.testng.TestRunner.afterRun(TestRunner.java:847)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method is-config="true" signature="finishingTest()[pri:0, instance:ExecutionEndToEnd.UtilTestNgSecondCup@3c153a1]" started-at="2021-01-30T19:25:23 EST" name="finishingTest" finished-at="2021-01-30T19:25:25 EST" duration-ms="2199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTest -->

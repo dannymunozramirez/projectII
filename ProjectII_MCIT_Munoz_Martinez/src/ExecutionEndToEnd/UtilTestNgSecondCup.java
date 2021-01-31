@@ -29,6 +29,7 @@ import pages_EndToEnd_Functionality.Payment;
  */
 
 public class UtilTestNgSecondCup {
+	
 
 	WebDriver driver;
 	ATUTestRecorder recorder;
@@ -63,14 +64,14 @@ public class UtilTestNgSecondCup {
 	public void beforeClass() throws ATUTestRecorderException {
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://secondcup.com/");
+		driver.get("https://secondcup.com/"); //https://cws.givex.com/cws4.0/secondcup4/ test case 7
 		// Recording test case
 		recorder.start();
 	}
 
 	@BeforeMethod
 	public void beforeMethod() throws InterruptedException {
-		System.out.println("Before method eecuted");
+		System.out.println("Before method executed");
 		Thread.sleep(2000);
 
 	}
@@ -118,9 +119,7 @@ public class UtilTestNgSecondCup {
 
 	@Test(priority = 7)
 	public void functionalGiftCards() throws InterruptedException {
-		homeGift.clickGifCardBtn(driver);
-		clickShopNow.clickGiftBtn(driver);
-		fillOutForm.clickToForm(driver);
+		
 		fillOutForm.fillingOutForm(driver);
 		paymentInfo.fillOutEmailField(driver);
 		paymentInfo.fillinOutPaymentInfo(driver);

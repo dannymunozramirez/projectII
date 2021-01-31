@@ -16,6 +16,7 @@ public class LoginPage {
 	}
 	
 	public void signingUp(WebDriver driver) throws InterruptedException {
+		driver.get("https://secondcup.com/");
 		driver.findElement(userInputById).sendKeys(RewardsPage.EMAIL);
 		Thread.sleep(2000);
 		driver.findElement(passwordInputById).sendKeys(RewardsPage.PASSWORD);

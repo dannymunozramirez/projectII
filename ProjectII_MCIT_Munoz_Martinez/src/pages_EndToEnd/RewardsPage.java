@@ -37,7 +37,7 @@ public class RewardsPage {
 	public  final static String NAME = "Munoz_Martinez";
 	public  final static String LAST_NAME = "MunozMartinez";
 	public  final static String EMAIL = "projectII.mcit@gmail.com";
-	public  final static String PASSWORD = "Munoz@Martinez";
+	public  final static String PASSWORD = "Munoz@Martinez12345";
 	
 	public RewardsPage(WebDriver driver) {
 		this.driver = driver;

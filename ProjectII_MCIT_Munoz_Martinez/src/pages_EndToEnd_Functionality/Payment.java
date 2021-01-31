@@ -49,7 +49,7 @@ public class Payment {
 		Thread.sleep(2000);
 
 		Select op = new Select(driver.findElement(select));
-		op.deselectByVisibleText(province);
+		op.selectByVisibleText(province);
 
 		Thread.sleep(2000);
 		driver.findElement(cityField).sendKeys(city);
@@ -59,7 +59,7 @@ public class Payment {
 		driver.findElement(phoneNumberField).sendKeys(phoneNumber);
 		Thread.sleep(2000);
 
-		driver.findElement(btn).click();
+		driver.findElement(btnField).click();
 
 	}
 
